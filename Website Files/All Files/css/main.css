@@ -957,7 +957,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
-	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
@@ -1088,22 +1087,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 header {
 	position: fixed;
-	width: 100%;
-	min-height: 66px;
-	z-index: 600;
+	width: 20%;
+	z-index: 10;
+	di
 }
 header .row {
 	position: relative;
-	min-height: 66px;
+	min-height: 15px;
+
 }
 header .top-bar {
 	display: block;
-	background: #000000;
-	min-width: 220px;
-	min-height: 66px;
+	background-size: 40px 20px;
 	position: absolute;
-	left: 90px;
-	top: 0;
+	opacity: 1.0;
 }
 header .logo {
 	float: left;
