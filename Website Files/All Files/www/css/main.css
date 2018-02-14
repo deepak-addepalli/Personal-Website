@@ -1135,10 +1135,10 @@ header .logo a {
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: 20px;
 	margin-top: 13px;
 	display: block;
 	position: relative;
+	opacity: 0.7;
 }
 .menu-toggle span {
 	display: block;
@@ -1229,12 +1229,13 @@ header .logo a {
 	position: absolute;
 	top: 100%;
 	left: 0;
+	margin-left: -10px;
 }
 
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -2533,6 +2534,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	text-align: center;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -2567,7 +2569,6 @@ footer .footer-social li a {
 }
 footer .copyright span {
 	display: inline-block;
-	margin-left: 25%;
 }
 
 footer .copyright span::after {
